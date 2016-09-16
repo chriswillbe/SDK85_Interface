@@ -1,4 +1,6 @@
-# SDK85_Interface allows you to control an Intel SDK-85 via a PC.
+# SDK85_Interface
+
+SDK85_Interface is an Arduino program that allows you to control an Intel SDK-85 using a PC.
 
 SDK85_Interface is an Arduino program that transmits and receives data from a PC at 9600 baud, and sends it to the SDK-85 teletype interface at 110 baud. You will need to modify the SDK-85 as shown in the "SDK-85 System Design Kit User's Manual" section 5-7 "Converter Circuit For RS232C Serial Port". You will also need a terminal emulator program like "screen" in order to enter commands and receive data.
 
