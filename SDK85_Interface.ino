@@ -9,7 +9,7 @@
   To use, connect as shown in the "SDK-85 System Design Kit User's Manual" section 5-7 "Converter Circuit For RS232C Serial Port"
   The bottom pad of the removed R6 connects to Arduino pin 2, the center contact of S25 connects to Arduino pin 3, and the 
   Arduino should be grounded to the SDK-85.
-  I use Linux. The following instructions assume you use some *nix.
+  The following instructions assume you use some *nix.
   You need "screen" or some other terminal emulator that sends every character (the SDK uses the "escape" key in the insert command). 
   Load this code into the Arduino.
   Start your terminal emulator. Ex. "screen /dev/ttyACM0" or whatever your Arduino shows up as in the /dev folder.
